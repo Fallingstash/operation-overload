@@ -207,8 +207,8 @@ class Program {
   static void Main(string[] args) {
     try {
       Console.WriteLine("Добро пожаловать в калькулятор матриц!!! Пожалуйста, выберите операцию:");
-      Console.WriteLine("1. Операции с одной матрицей");
-      Console.WriteLine("2. Операции с двумя матрицами");
+      Console.WriteLine("1. Операции с двумя матрицами");
+      Console.WriteLine("2. Операции с одной матрицей");
 
       Random random = new Random();
       string userAnswer = Console.ReadLine();
